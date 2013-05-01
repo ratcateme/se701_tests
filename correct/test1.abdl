@@ -1,0 +1,6 @@
+addressbook "ASD" {
+    person "ABC" {
+        birthdate 99 December 0009
+        phone(mobile) 0211234567
+    }
+}
