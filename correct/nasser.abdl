@@ -1,0 +1,16 @@
+addressbook "My favourite friends" {
+    person "Garfield Smith" {
+        birthdate 99 December 0009
+        phone(mobile) 0211234567
+        phone(home) 098131111
+        phone(work) +6493737599 ext 5678
+        email garfield.smith_123@auckland.ac.nz
+    }
+
+    person "Odie Smith-Waters" {
+        birthdate 2 June 1983
+        phone(other) 111
+        phone(other) 911
+        address(work) "3a/22 Symonds-West Street, Auckland, New Zealand"
+    }
+}
