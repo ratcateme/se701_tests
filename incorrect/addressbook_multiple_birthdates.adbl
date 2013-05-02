@@ -1,0 +1,10 @@
+addressbook "My favourite friends" {
+    person "Garfield Smith" {
+        birthdate 99 December 0009
+        birthdate 99 December 0009
+        phone(mobile) 0211234567
+        phone(home) 098131111
+        phone(work) +6493737599 ext 5678
+        email garfield.smith_123@auckland.ac.nz
+    }
+}
