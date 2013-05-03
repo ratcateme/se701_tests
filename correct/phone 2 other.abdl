@@ -1,0 +1,6 @@
+addressbook "name"{
+	person "name" {
+		phone(other) 1
+		phone(other) 1
+	}
+}
