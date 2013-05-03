@@ -1,0 +1,5 @@
+addressbook "name"{
+	person "name" {
+		address(home) "3a/22 Symonds-West St, Auckland, NZ"
+	}
+}
