@@ -1,0 +1,4 @@
+addressbook "name"{
+	person "ABCDEFGHIJKLMNOPQRSTUVWXYZ"{
+	}
+}
