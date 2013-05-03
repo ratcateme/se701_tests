@@ -1,0 +1,5 @@
+addressbook "name"{
+	person "name" {
+		email 1234567890@c.d		
+	}
+}
