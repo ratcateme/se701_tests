@@ -1,0 +1,8 @@
+addressbook "name"{
+	person "name" {
+		address(home) "1"
+		address(work) "1"
+		address(other) "1"
+		address(mobile) "1"
+	}
+}

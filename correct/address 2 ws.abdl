@@ -1,0 +1,5 @@
+addressbook "name"{
+	person "name" {
+		address(home) "a  a"		
+	}
+}
