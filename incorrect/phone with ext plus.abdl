@@ -1,0 +1,5 @@
+addressbook "a" {
+	person "b" {
+		phone(home) +123 ext +456
+	}
+}
