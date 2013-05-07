@@ -1,6 +1,0 @@
-addressbook "name"{
-	person "name" {
-		address(other) "abc"
-		address(other) "abc"
-	}
-}
