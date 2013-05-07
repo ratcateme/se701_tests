@@ -1,5 +1,7 @@
 package abdl;
 
+import static org.junit.Assert.fail;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -46,9 +48,13 @@ public class ABDLTest {
 	public void testADBL() {
 		try {
 			parseFile(this.file);
-		} catch (FileNotFoundException | ParseException e) {
+			
 			if (this.file.getParent().equals("incorrect")) {
-				return;
+				fail("Incorrect file parsed without errors: " + file.getName());
+			}
+		} catch (FileNotFoundException | ParseException e) {
+			if (this.file.getParent().equals("correct")) {
+				fail("Correct file failed to parse: " + file.getName());
 			}
 
 			e.printStackTrace();
