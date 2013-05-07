@@ -1,5 +1,0 @@
-addressbook "name"{
-	person "name" {
-		phone(home) 1ext1
-	}
-}
