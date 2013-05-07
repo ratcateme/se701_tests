@@ -44,20 +44,18 @@ public class ABDLTest {
 		this.file = file;
 	}
 
-	@Test(expected = ParseException.class)
+	@Test
 	public void testADBL() {
 		try {
 			parseFile(this.file);
-			
-			if (this.file.getParent().equals("incorrect")) {
-				fail("Incorrect file parsed without errors: " + file.getName());
-			}
-		} catch (FileNotFoundException | ParseException e) {
-			if (this.file.getParent().equals("correct")) {
-				fail("Correct file failed to parse: " + file.getName());
-			}
 
-			e.printStackTrace();
+			if (this.file.getParent().equals("./test/incorrect")) {
+				fail(file.getName() + " parsed, should have failed");
+			}
+		} catch (FileNotFoundException | ParseException | TokenMgrError e) {
+			if (this.file.getParent().equals("./test/correct")) {
+				fail(file.getName() + " failed to parse, should have parsed.");
+			}
 		}
 	}
 }
