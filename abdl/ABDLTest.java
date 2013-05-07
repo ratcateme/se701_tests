@@ -50,11 +50,11 @@ public class ABDLTest {
 			parseFile(this.file);
 
 			if (this.file.getParent().equals("./test/incorrect")) {
-				fail(file.getName() + " parsed, should have failed");
+				fail(file.getName() + " parsed, should have failed.");
 			}
 		} catch (FileNotFoundException | ParseException | TokenMgrError e) {
 			if (this.file.getParent().equals("./test/correct")) {
-				fail(file.getName() + " failed to parse, should have parsed.");
+				fail(file.getName() + " failed to parse, should have parsed:\n" + e.getMessage());
 			}
 		}
 	}
