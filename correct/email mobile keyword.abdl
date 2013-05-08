@@ -1,5 +1,5 @@
 addressbook "name"{
 	person "name" {
-		email mobile@mobile
+		email mobile@mobile.com
 	}
 }
