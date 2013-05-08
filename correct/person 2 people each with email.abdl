@@ -1,8 +1,8 @@
 addressbook "name"{
 	person "name" {
-		email a@a
+		email a@a.b
 	}
 	person "name" {
-		email a@a
+		email a@a.c
 	}
 }
