@@ -17,7 +17,7 @@ import org.junit.runners.Parameterized.Parameters;
 @RunWith(Parameterized.class)
 public class ABDLTest {
 
-	@Parameters
+	@Parameters(name="{0}.getSimpleName()")  // requires JUnit 4.11
 	public static Collection<Object[]> files() {
 		Collection<File> files = new ArrayList<File>();
 
