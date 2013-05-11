@@ -1,0 +1,10 @@
+addressbook "name"{
+	person "name"{
+		email abc@abc.com
+		phone(mobile) 0211234567
+		birthdate 02 November 1992
+		phone(work) +43122 ext 5678
+		address(home) "842 New North Road, Auckland, New Zealand"
+		address(work) "20 Symonds Street, Auckland, New Zealand"
+	}
+}
